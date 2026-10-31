@@ -1,7 +1,9 @@
+import Banner from "@/components/Banner/Banner";
+
 export default function Home() {
      return (
           <div>
-               <h1>SpotPeer</h1>
+               <Banner />
           </div>
      );
 }
