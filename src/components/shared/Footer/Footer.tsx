@@ -5,20 +5,20 @@ const Footer = () => {
      const links = [
           {
                title: "Products",
-               items: [{ name: "Templates", href: "#" }, { name: "Components", href: "#" }, { name: "Icons", href: "#" }, { name: "UI Kits", href: "#" }],
+               items: [{ name: "Templates", href: "/" }, { name: "Components", href: "/" }, { name: "Icons", href: "/" }, { name: "UI Kits", href: "/" }],
           },
           {
                title: "Company",
-               items: [{ name: "About Us", href: "#" }, { name: "Careers", href: "#" }, { name: "Blog", href: "#" }, { name: "Contact", href: "#" }],
+               items: [{ name: "About Us", href: "/" }, { name: "Careers", href: "/" }, { name: "Blog", href: "/" }, { name: "Contact", href: "/" }],
           },
           {
                title: "Resources",
-               items: [{ name: "Documentation", href: "#" }, { name: "Changelog", href: "#" }, { name: "Support", href: "#" }, { name: "API Reference", href: "#" }],
+               items: [{ name: "Documentation", href: "/" }, { name: "Changelog", href: "/" }, { name: "Support", href: "/" }, { name: "API Reference", href: "/" }],
           }
-    ]
+     ]
 
      return (
-          <footer className="bg-zinc-50 pt-15 w-full max-w-7xl mx-auto px-5 md:px-8 lg:px-12 xl:px-20">
+          <footer className="pt-15 w-full max-w-7xl mx-auto px-5 md:px-8 lg:px-12 xl:px-20">
                 <div className="">
                     <div className="flex flex-col lg:flex-row gap-16 pb-12">
                         <div className="flex-1 max-w-full lg:max-w-100">
@@ -89,13 +89,18 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4 py-4 border-t border-zinc-300">
-                        <p className="text-sm text-zinc-500">&copy; 2026 SpotPeer. All Right Reserved.</p>
-                        <div className="flex flex-wrap justify-center gap-5 md:gap-9">
-                            <Link href="/" className="text-sm text-zinc-500 hover:text-zinc-700 transition-colors">Privacy Policy</Link>
-                            <Link href="/" className="text-sm text-zinc-500 hover:text-zinc-700 transition-colors">Terms of Service</Link>
-                            <Link href="/" className="text-sm text-zinc-500 hover:text-zinc-700 transition-colors">About Us</Link>
-                            <Link href="/" className="text-sm text-zinc-500 hover:text-zinc-700 transition-colors">Team</Link>
-                        </div>
+                         <p className="text-sm text-zinc-500">&copy; 2026 SpotPeer. All Right Reserved.</p>
+                         <div className="flex flex-wrap justify-center gap-5 md:gap-9">
+                                   <Link href="/" className="text-sm text-zinc-500 hover:text-zinc-700 transition-colors">Privacy Policy</Link>
+                                   <Link href="/" className="text-sm text-zinc-500 hover:text-zinc-700 transition-colors">Terms of Service</Link>
+                                   <Link href="/" className="text-sm text-zinc-500 hover:text-zinc-700 transition-colors">About Us</Link>
+                                   <Link href="/" className="text-sm text-zinc-500 hover:text-zinc-700 transition-colors">Team</Link>
+                         </div>
+                    </div>
+
+                    <div className="relative">
+                         <div className="absolute inset-x-0 bottom-0 mx-auto w-full max-w-3xl h-full max-h-64 bg-slate-100 rounded-full blur-[100px] pointer-events-none"/>
+                         <h1 className=" text-center font-extrabold leading-[0.7] text-transparent text-[clamp(3rem,15vw,15rem)] [-webkit-text-stroke:1px_#D4D4D4] mt-6">SpotPeer</h1>
                     </div>
                 </div>
             </footer>
