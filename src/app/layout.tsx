@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
+import { Toaster } from 'react-hot-toast';
 import "./globals.css";
 import Footer from "@/components/shared/Footer/Footer";
 import Navbar from "@/components/shared/Navbar/Navbar";
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                     <main>{children}</main>
 
                     <Footer />
+                    <Toaster />
                </body>
           </html>
      );
