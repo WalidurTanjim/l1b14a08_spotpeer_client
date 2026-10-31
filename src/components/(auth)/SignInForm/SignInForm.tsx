@@ -75,7 +75,7 @@ const SignInForm = ({ className, ...props }: React.ComponentProps<"div">) => {
                                    </Field>
 
                                    <Field>
-                                        <Button type="submit">Login</Button>
+                                        <Button type="submit">Signin</Button>
                                         <FieldDescription className="text-center">Don't have an account? <Link href="signup">Sign up</Link></FieldDescription>
                                    </Field>
                               </FieldGroup>
