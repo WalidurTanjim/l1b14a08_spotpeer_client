@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Photo Studios",
+      "slug": "photo-studios",
+      "description": "Professional cyc walls, natural light spaces, and multi-set photography studios.",
+      "image": "https://i.ibb.co.com/fY4VN5nf/camera.png",
+      "studioCount": 24
+    },
+    {
+      "name": "Sound Stages",
+      "slug": "sound-stages",
+      "description": "Acoustically treated large stages for film, television, and commercial video production.",
+      "image": "https://i.ibb.co.com/mrvCbWHZ/headphone.png",
+      "studioCount": 12
+    },
+    {
+      "name": "Podcast Rooms",
+      "slug": "podcast-rooms",
+      "description": "Intimate, fully equipped audio/video podcast recording lounges.",
+      "image": "https://i.ibb.co.com/TDSczj0p/podcast.png",
+      "studioCount": 30
+    },
+    {
+      "name": "Music Suites",
+      "slug": "music-suites",
+      "description": "Recording, mixing, and mastering studios with top-tier gear and isolation booths.",
+      "image": "https://i.ibb.co.com/sfMyNfS/sound.png",
+      "studioCount": 18
+    },
+    {
+      "name": "Art Workshops",
+      "slug": "art-workshops",
+      "description": "Spacious, well-lit creative spaces for painting, sculpting, and crafting workshops.",
+      "image": "https://i.ibb.co.com/1J95kw6T/art.png",
+      "studioCount": 9
+    }
+]
